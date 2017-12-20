@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		8C6FB8471FE9EFBC0061CA81 /* 3Dto2DScratchAPixel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 3Dto2DScratchAPixel; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6FB84A1FE9EFBC0061CA81 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C6FB8531FE9F75F0061CA81 /* Vec3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; name = Vec3.hpp; path = ../../../../Users/randysprouse/dev/3Dto2DScratchAPixel/3Dto2DScratchAPixel/Vec3/Vec3.hpp; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +58,18 @@
 		8C6FB8491FE9EFBC0061CA81 /* 3Dto2DScratchAPixel */ = {
 			isa = PBXGroup;
 			children = (
+				8C6FB8511FE9F68B0061CA81 /* Vec3 */,
 				8C6FB84A1FE9EFBC0061CA81 /* main.cpp */,
 			);
 			path = 3Dto2DScratchAPixel;
+			sourceTree = "<group>";
+		};
+		8C6FB8511FE9F68B0061CA81 /* Vec3 */ = {
+			isa = PBXGroup;
+			children = (
+				8C6FB8531FE9F75F0061CA81 /* Vec3.hpp */,
+			);
+			path = Vec3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
